@@ -1,0 +1,79 @@
+<hgroup></hgroup>
+    Um grupo de titulos.
+
+
+-------
+Alt + w = encapsular seleção
+-------
+
+QUEBRA DE PALAVRAS 
+    <wbr/> = word breaker
+        quebra a palavra no ponto em que é colocado.
+    &shy; = quebra de palavra com hifen
+        Só jogar lá no meio e dale.
+
+<sup></sup>
+    Para sobrescrever palavra tipo escrever um número ao quadrado.
+<sub></sub>
+    Dessa vez é para escrever embaixo tipo o 2 em H20
+
+
+CLASS CSS
+    Podem ser declaradas utilizando o nome da class declarada, como por exemplo:
+        figure.'nomeDaClasse'   
+        ou
+        figure.'nomeDaClasse' img <- esse 'img' pode ser usado para enfatizar que elemento vai ser estilizado
+
+HTML
+    <a> 
+        Ancora para referenciar atributos
+
+        target""
+            _self = abre  o link na mesma aba
+            _blank = abre o link em outroa aba
+            
+    <link>
+        rel = tipo de relacionamento
+        type/text = 
+        href = 
+
+
+    Listas <ol> <ul>
+        <ol> Ordered list = lista ordenada
+            Tipos de lista
+                usando o parametro type dentro da lista teremos a possibilidade de ordena-las com outros indices como:
+                type = "1" / Lista 1 2 3 4 ...
+                type = "a" / Lista a b c d ...
+                type = "A" / Lista A B C D ...
+                type = "i" / Lista I II III IV ... 
+        <ul> Unordered list = lista não ordenada
+    
+
+
+
+CSS
+    Para invocar as coisas identificadas com ID sua a '#', com class usa o '.'
+
+    IMPORTANTE SINTAX
+    
+
+    position
+        Quando se trata de um elemento pai vai determinar os limites, e é preciso delimitar isso. Qaundo se trata de elemento filho, vai respeitar as limitações do pai.
+
+    box-sizing
+        determina o tamanho e comportamento do box.
+    
+    hover
+        Tipo o OnMouseOver do JS. atenção nos parametros de dentro (opacidade)
+        EX: figure.foto-legenda:hover figcaption{
+            opacity: 1;
+        }
+
+    CLASS CSS
+    Podem ser declaradas utilizando o nome da class declarada, como por exemplo:
+        figure.'nomeDaClasse'   
+        ou
+        figure.'nomeDaClasse' img <- esse 'img' pode ser usado para enfatizar que elemento vai ser estilizado
+
+
+
